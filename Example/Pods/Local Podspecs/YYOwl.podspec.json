@@ -1,0 +1,29 @@
+{
+  "name": "YYOwl",
+  "version": "0.1.0",
+  "summary": "A performance monitoring component.",
+  "description": "A performance monitoring component.",
+  "homepage": "https://github.com/Jadite/Owl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Groot": "guoyuanyuan02@corp.netease.com"
+  },
+  "source": {
+    "git": "https://github.com/Jadite/Owl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YYOwl/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "subspec",
+      "source_files": "YYOwl/Classes/subspec/**/*",
+      "public_header_files": "YYOwl/Classes/subspec/*.h"
+    }
+  ]
+}

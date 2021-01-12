@@ -1,0 +1,18 @@
+PODS:
+  - YYOwl (0.1.0):
+    - YYOwl/subspec (= 0.1.0)
+  - YYOwl/subspec (0.1.0)
+
+DEPENDENCIES:
+  - YYOwl (from `../`)
+
+EXTERNAL SOURCES:
+  YYOwl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYOwl: 1db4047d103beb4158d45a0374c1c98bf6fdda72
+
+PODFILE CHECKSUM: 9ad4b7fabc47f222f6f1b80d425ace29ffe70ea3
+
+COCOAPODS: 1.7.1
